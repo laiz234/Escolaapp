@@ -1,0 +1,25 @@
+﻿<Window x:Class="EscolaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EscolaApp"
+        mc:Ignorable="d"
+        Title="Escola" Height="200" Width="300">
+    <Grid>
+        <Menu>
+            <MenuItem Header="Cadastros">
+                <MenuItem Header="Turmas..." Click="Turma_Click" />
+                <MenuItem Header="Alunos..." Click="Aluno_Click" />
+            </MenuItem>
+            <MenuItem Header="Operações">
+                <MenuItem Header="Matricular Aluno..." Click="Matricula_Click" />
+                <MenuItem Header="Diário da Turma..." Click="Diario_Click" />
+            </MenuItem>
+        </Menu>
+        <Button Visibility="Hidden" Click="Turma_Click" Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="23,19,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Aluno_Click" Content="Cadastrar Aluno" HorizontalAlignment="Left" Margin="23,44,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Matricula_Click" Content="Matricular Aluno" HorizontalAlignment="Left" Margin="23,69,0,0" VerticalAlignment="Top"/>
+        <Button Visibility="Hidden" Click="Diario_Click" Content="Diário da Turma" HorizontalAlignment="Left" Margin="23,94,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
