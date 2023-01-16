@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = EscolaApp
-build_property.ProjectDir = C:\Users\20201011110032\Downloads\2022_PEOOVS_T1-main\EscolaApp\EscolaApp\
+build_property.ProjectDir = C:\Users\20201011110032\source\repos\Escolaapp\EscolaApp\EscolaApp\
