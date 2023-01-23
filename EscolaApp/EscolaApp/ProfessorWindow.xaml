@@ -15,10 +15,10 @@
         <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="81,49,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"/>
         <TextBox x:Name="txtMatricula" HorizontalAlignment="Left" Margin="175,49,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="111"/>
         <TextBox x:Name="txtArea" HorizontalAlignment="Left" Margin="293,49,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="18,81,0,0" VerticalAlignment="Top" Click="InserirClick_Click"/>
-        <Button x:Name="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="65,81,0,0" VerticalAlignment="Top" Click="ListarClick_Click"/>
-        <Button x:Name="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="108,81,0,0" VerticalAlignment="Top" Click="AtualizarClick_Click"/>
-        <Button x:Name="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="168,81,0,0" VerticalAlignment="Top" Click="ExcluirClick_Click"/>
+        <Button x:Name="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="18,81,0,0" VerticalAlignment="Top" Click="InserirClick" />
+        <Button x:Name="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="65,81,0,0" VerticalAlignment="Top" Click="ListarClick" />
+        <Button x:Name="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="108,81,0,0" VerticalAlignment="Top" Click="AtualizarClick"/>
+        <Button x:Name="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="168,81,0,0" VerticalAlignment="Top" Click="ExcluirClick"/>
         <ListBox x:Name="listProfessores" Margin="18,117,17,23" SelectionChanged="listProfessores_SelectionChanged"/>
 
     </Grid>

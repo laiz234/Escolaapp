@@ -35,13 +35,13 @@ namespace EscolaApp
             ListarClick(sender, e);
         }
 
-        private void ListarClick_Click(object sender, RoutedEventArgs e)
+        private void ListarClick(object sender, RoutedEventArgs e)
         {
             listProfessores.ItemsSource = null;
             listProfessores.ItemsSource = NProfessor.Listar();
         }
 
-        private void AtualizarClick_Click(object sender, RoutedEventArgs e)
+        private void AtualizarClick(object sender, RoutedEventArgs e)
         {
             Professor p = new Professor();
             p.Id = int.Parse(txtId.Text);
@@ -52,7 +52,7 @@ namespace EscolaApp
             ListarClick(sender, e);
         }
 
-        private void ExcluirClick_Click(object sender, RoutedEventArgs e)
+        private void ExcluirClick(object sender, RoutedEventArgs e)
         {
             Professor p = new Professor();
             p.Id = int.Parse(txtId.Text);
